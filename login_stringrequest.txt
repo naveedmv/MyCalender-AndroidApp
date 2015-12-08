@@ -1,0 +1,29 @@
+if (username != null && !username.equals("") && password != null && !password.equals("")) {
+                    String url = "http://130.233.42.143:8080/login";
+                    // Request a string response from the provided URL.
+                    StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                            new Response.Listener<String>() {
+                                @Override
+                                public void onResponse(String response) {
+                                    // Display the first 500 characters of the response string.
+                                    //mTextView.setText("Response is: "+ response.substring(0,500));
+                                    Log.i(TAG,response);
+
+                                }
+                            }, new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            //mTextView.setText("That didn't work!");
+                            Log.i(TAG,"SOME ERROR ARRIVED");
+                        }
+                    }) {
+                        @Override
+                        protected Map<String, String> getParams() throws com.android.volley.AuthFailureError {
+                            Map<String, String> params = new HashMap<String, String>();
+                            params.put("username", username);
+                            params.put("password", password);
+
+                            return params;
+                        };
+
+                    };

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyCalendar</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_about">About MyCalendar</string>
+    <string name="action_userinfo">User Info</string>
+    <string name="about_info">\nCalendar mApplication\nAssignment 3\nGroup 50\nMobile Cloud Computing\nAalto University, Finland\n\n©2015\n&#160;&#160;&#160;Naveed Mohammed Vaheed\n&#160;&#160;&#160;Shailesh Mota\n</string>
+    <string name="title_activity_login">Login</string>
+    <string name="format_date"><font size="13">YYYY-MM-DD</font></string>
+    <string name="format_time"><font size="13">HH:MM 24hrs</font></string>
+    <string name="event_details">Event Detail</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="go_back">No Thanks,Go Back Here</string>
+    <string name="import_events">Import Events from Phone Calendar</string>
+    <string name="export_events">Export Events to Phone Calendar</string>
+    <string name="cancel">Cancel</string>
+    <string name="_import">Import</string>
+    <string name="import_wizard">Import Wizard</string>
+    <string name="export_wizard">Export Wizard</string>
+    <string name="_export">_export</string>
+
+
+</resources>

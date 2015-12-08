@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivAppLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="fill_horizontal"
+        android:src="@drawable/mycalendarlogo" />
+
+    <TextView
+        android:text="@string/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/caldroid_black"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/caldroid_black"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="15sp"
+        android:textColor="@color/buttonTextColor"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvSignUpLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/sign_up_here"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

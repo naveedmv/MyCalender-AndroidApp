@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#ffa500</color>
+    <color name="ColorPrimaryDark">#808080</color>
+    <color name="tabsScrollColor">#ffae19</color>
+    <color name="aboutColor">#ffb732</color>
+    <color name="menuColor">#4c4c4c</color>
+    <color name="buttonTextColor">#e59400</color>
+    <color name="textViewColor">#333333</color>
+
+</resources>
+
